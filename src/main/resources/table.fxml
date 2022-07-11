@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane prefHeight="600.0" prefWidth="800.0" stylesheets="@table.css" xmlns="http://javafx.com/javafx/18"
+           xmlns:fx="http://javafx.com/fxml/1" fx:controller="data.TableController">
+    <children>
+        <TableView fx:id="tableView">
+            <columns>
+                <TableColumn fx:id="code" prefWidth="75.0" text="Code"/>
+                <TableColumn fx:id="name" prefWidth="75.0" text="Name"/>
+                <TableColumn fx:id="numberOfMoves" prefWidth="75.0" text="NumberOfMoves"/>
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+            </columnResizePolicy>
+        </TableView>
+    </children>
+</StackPane>

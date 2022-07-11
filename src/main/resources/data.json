@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Afghanistan",
+    "numberOfMoves": 40
+
+  },
+  {
+    "id": 2,
+    "name": "AG",
+    "numberOfMoves": 10
+
+  },
+  {
+    "id": 3,
+    "name": "AGH",
+    "numberOfMoves": 5
+
+  }
+]
